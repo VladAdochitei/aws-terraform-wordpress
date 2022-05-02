@@ -59,11 +59,4 @@ NOTE regarding the files:
                   main.tf           -> terraform script
                   outputs.tf        -> declaration of variables
                   variables.tf      -> variable values
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
+             
