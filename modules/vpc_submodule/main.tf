@@ -160,6 +160,6 @@ resource "aws_security_group" "sg_rds" {
   }
 
   tags = {
-    Name = "allow-dmz"
+    Name = "allow-rds-to-dmz"
   }
 }
