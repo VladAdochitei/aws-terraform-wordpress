@@ -39,25 +39,3 @@ and insertyour access key and the secret access key  <br />
 <code>terraform apply <code>  <br />
   <br />
 !!! Also make sure you configure yoour terraform code to suit your needs !!! <br /> 
-  <br />
-NOTE regarding the files:<br />  
-      ROOT:  <br />
-       main.tf                      -> terraform script  <br />
-       variables.tf                 -> declaration of variables <br /> 
-       terraform.tfvars             -> variable values      {This is the file you will need to access in order to change the variables' value} <br />  
-       init.tpl                     -> shell script of the server config  <br />
-       modules:  <br />
-            ec2_submodule: <br /> 
-                  main.tf           -> terraform script <br /> 
-                  outputs.tf        -> declaration of variables <br /> 
-                  variables.tf      -> variable values  <br />
-            rds_submodule:  <br />
-                  main.tf           -> terraform script  <br />  
-                  outputs.tf        -> declaration of variables  <br />  
-                  variables.tf      -> variable values  <br />
-            vpc_submodule:  <br />
-                  main.tf           -> terraform script  <br />
-                  outputs.tf        -> declaration of variables  <br />  
-                  variables.tf      -> variable values  <br />
-             <br />
-<br />
