@@ -2,9 +2,9 @@ Title: Aws wordpress_website terraform infrastructure
 Creator: Vladut-Andrei Adochitei
 Description:
 
--> AWS terraform infrastructure code 
--> Module oriented architecture
--> With the current setup the code creates the following resources
+-> AWS terraform infrastructure code \n
+-> Module oriented architecture\n
+-> With the current setup the code creates the following resources\n
       -> 1 vpc
       -> 1 internet gateway
       -> 1 public subnet
